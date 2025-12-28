@@ -1,0 +1,241 @@
+{
+  "accounts": [
+    {
+      "id": "001",
+      "username": "admin",
+      "password": "123456",
+      "role": "admin",
+      "email": "admin@gmail.com"
+    },
+    {
+      "id": "002",
+      "username": "nguyenvana",
+      "password": "123456",
+      "role": "user",
+      "email": "nguyenvana@gmail.com"
+    }
+  ],
+  "products": [
+    {
+      "id": "001",
+      "img": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&h=600&fit=crop",
+      "name": "Sausage Pizza",
+      "price": "$12.49",
+      "type": "pizza",
+      "ingredients": "Dough, Sausages, Cheese, Tomato"
+    },
+    {
+      "id": "002",
+      "img": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=600&h=600&fit=crop",
+      "name": "Pepperoni Pizza",
+      "price": "$11.99",
+      "type": "pizza",
+      "ingredients": "Dough, Pepperoni, Cheese, Tomato"
+    },
+    {
+      "id": "003",
+      "img": "https://images.unsplash.com/photo-1546793665-c74683f339c1?w=600&h=600&fit=crop",
+      "name": "Caesar Salad",
+      "price": "$8.99",
+      "type": "salad",
+      "ingredients": "Romaine Lettuce, Caesar Dressing, Parmesan Cheese, Croutons"
+    },
+    {
+      "id": "004",
+      "img": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&h=600&fit=crop",
+      "name": "Garden Salad",
+      "price": "$7.99",
+      "type": "salad",
+      "ingredients": "Mixed Greens, Tomatoes, Cucumbers, Carrots, Olive Oil"
+    },
+    {
+      "id": "005",
+      "img": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=600&h=600&fit=crop",
+      "name": "Greek Salad",
+      "price": "$9.49",
+      "type": "salad",
+      "ingredients": "Lettuce, Feta Cheese, Olives, Tomatoes, Red Onion, Olive Oil"
+    },
+    {
+      "id": "006",
+      "img": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&h=600&fit=crop",
+      "name": "Classic Hamburger",
+      "price": "$10.99",
+      "type": "hamburger",
+      "ingredients": "Beef Patty, Bun, Lettuce, Tomato, Onion, Pickles, Cheese"
+    },
+    {
+      "id": "007",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmlubM1gltHJPMFEXXn_fMRL2oxDEwgE_CTw&s",
+      "name": "Cheeseburger",
+      "price": "$11.49",
+      "type": "hamburger",
+      "ingredients": "Beef Patty, Bun, Cheese, Lettuce, Tomato, Onion, Special Sauce"
+    },
+    {
+      "id": "008",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6isLhEmC0563sFX3Y-9kJbzDf6PfhPCE7lg&s",
+      "name": "Bacon Burger",
+      "price": "$12.99",
+      "type": "hamburger",
+      "ingredients": "Beef Patty, Bun, Bacon, Cheese, Lettuce, Tomato, Onion"
+    },
+    {
+      "id": "009",
+      "img": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=600&h=600&fit=crop",
+      "name": "Margherita Pizza",
+      "price": "$10.99",
+      "type": "pizza",
+      "ingredients": "Dough, Fresh Mozzarella, Basil, Tomato Sauce"
+    },
+    {
+      "id": "010",
+      "img": "https://images.getrecipekit.com/20240103192542-buffalo-chicken-wings.jpg?width=650&quality=90&",
+      "name": "Buffalo Wings",
+      "price": "$9.99",
+      "type": "chicken wings",
+      "ingredients": "Chicken Wings, Buffalo Sauce, Blue Cheese Dip, Celery"
+    },
+    {
+      "id": "011",
+      "img": "https://www.smoking-meat.com/image-files/honey-barbecue-smoked-wings-575x384-1.jpg",
+      "name": "Honey BBQ Wings",
+      "price": "$10.49",
+      "type": "chicken wings",
+      "ingredients": "Chicken Wings, Honey BBQ Sauce, Ranch Dip"
+    },
+    {
+      "id": "012",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYIPjoM6b4Z3gucF3QoMI9Ov7gMBburGPPsQ&s",
+      "name": "Spicy Garlic Wings",
+      "price": "$10.99",
+      "type": "chicken wings",
+      "ingredients": "Chicken Wings, Spicy Garlic Sauce, Ranch Dip"
+    },
+    {
+      "id": "013",
+      "img": "https://timskitchen.com.hk/wp-content/uploads/2025/02/smoked-salmon-sushi-roll-recipe-1739410610.jpg",
+      "name": "Salmon Sushi Roll",
+      "price": "$13.99",
+      "type": "sushi",
+      "ingredients": "Sushi Rice, Salmon, Nori, Avocado, Cucumber, Soy Sauce"
+    },
+    {
+      "id": "014",
+      "img": "https://starkist.com/wp-content/uploads/2018/11/recipes_korean_style_gochujang_sushi_rolls_910x445.jpg",
+      "name": "Tuna Sushi Roll",
+      "price": "$14.49",
+      "type": "sushi",
+      "ingredients": "Sushi Rice, Tuna, Nori, Avocado, Wasabi, Ginger"
+    },
+    {
+      "id": "015",
+      "img": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=600&h=600&fit=crop",
+      "name": "California Roll",
+      "price": "$12.99",
+      "type": "sushi",
+      "ingredients": "Sushi Rice, Crab, Avocado, Cucumber, Nori, Sesame Seeds"
+    },
+    {
+      "id": "016",
+      "img": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&h=600&fit=crop",
+      "name": "Chicken Noodle Soup",
+      "price": "$7.99",
+      "type": "soup",
+      "ingredients": "Chicken Broth, Noodles, Chicken, Carrots, Celery, Onions"
+    },
+    {
+      "id": "017",
+      "img": "https://images.unsplash.com/photo-1565299507177-b0ac66763828?w=600&h=600&fit=crop",
+      "name": "Tomato Soup",
+      "price": "$6.99",
+      "type": "soup",
+      "ingredients": "Tomatoes, Onions, Garlic, Basil, Cream, Croutons"
+    },
+    {
+      "id": "018",
+      "img": "https://images.unsplash.com/photo-1574894709920-11b28e7367e3?w=600&h=600&fit=crop",
+      "name": "Miso Soup",
+      "price": "$5.99",
+      "type": "soup",
+      "ingredients": "Miso Paste, Tofu, Seaweed, Green Onions, Dashi"
+    },
+    {
+      "id": "019",
+      "img": "https://images.unsplash.com/photo-1523362628745-0c100150b504?w=600&h=600&fit=crop",
+      "name": "Coca Cola",
+      "price": "$2.49",
+      "type": "drink",
+      "ingredients": "Carbonated Water, Sugar, Caramel Color, Natural Flavors"
+    },
+    {
+      "id": "020",
+      "img": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=600&h=600&fit=crop",
+      "name": "Orange Juice",
+      "price": "$3.99",
+      "type": "drink",
+      "ingredients": "Fresh Orange Juice, No Added Sugar"
+    },
+    {
+      "id": "021",
+      "img": "https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?w=600&h=600&fit=crop",
+      "name": "Iced Coffee",
+      "price": "$4.49",
+      "type": "drink",
+      "ingredients": "Coffee, Ice, Milk, Sugar"
+    },
+    {
+      "id": "022",
+      "img": "https://images.unsplash.com/photo-1523677011783-c91d1bbe2fdc?w=600&h=600&fit=crop",
+      "name": "Lemonade",
+      "price": "$3.49",
+      "type": "drink",
+      "ingredients": "Fresh Lemon Juice, Water, Sugar, Ice"
+    },
+    {
+      "id": "023",
+      "img": "https://images.unsplash.com/photo-1523362628745-0c100150b504?w=600&h=600&fit=crop",
+      "name": "Sprite",
+      "price": "$2.49",
+      "type": "drink",
+      "ingredients": "Carbonated Water, Sugar, Natural Lemon-Lime Flavors"
+    },
+    {
+      "id": "024",
+      "img": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=600&h=600&fit=crop",
+      "name": "Green Tea",
+      "price": "$2.99",
+      "type": "drink",
+      "ingredients": "Green Tea Leaves, Hot Water, Honey (optional)"
+    },
+    {
+      "id":"025",
+      "img":"https://www.foodandwine.com/thmb/Wd4lBRZz3X_8qBr69UOu2m7I2iw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/classic-cheese-pizza-FT-RECIPE0422-31a2c938fc2546c9a07b7011658cfd05.jpg",
+      "name":"Cheese Pizza",
+      "price":"$10.99",
+      "type":"pizza",
+      "ingredients" :"Dough, Fresh Mozzarella, Cheese, Tomato Sauce"
+    },
+    {
+      "id":"025",
+      "img":"https://www.allrecipes.com/thmb/ONOHa0k1tRyjOEGgepSpRkiZDVI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-14169-Mexican-bean-salad-hero-4x3-fbc15c84af564387b4a46a62bc8cca89.jpg",
+      "name":"Mexican Beans Salad",
+      "price":"$5.49",
+      "type":"salad",
+      "ingredients":"Many type of Beans, Olive Oil, Salt, Lemonjuice, Seasoning of your choice"
+    },
+    {
+      "id":"026",
+      "img":"https://www.certifiedangusbeef.com/_next/image?url=https%3A%2F%2Fappetizing-cactus-7139e93734.media.strapiapp.com%2FAvocado_Bacon_Barbecue_Burger_6395900f58.jpeg&w=1920&q=75",
+      "name":"BBQ Bacon Burger",
+      "price":"$14.49",
+      "type":"hamburger",
+      "ingredients":"Bacon, BBQ Beef, Avocado, Lettuce, Cheese, Tomato"
+    },
+    {
+      "id":"027",
+      "img":"https://realfood.tesco.com/media/images/1400x919-Korean-chicken-wings-b3b7dad3-c787-4ec6-a481-625c04586a0e-0-1400x919.jpg",
+      "name":"Korean-style chicken wings"
+    }
+  ]
+}
