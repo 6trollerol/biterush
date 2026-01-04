@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details - Food Ordering System</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-gray-900 min-h-screen">
+   <!-- Navigation Bar -->
+   <nav class="bg-gray-800 border-b border-gray-700 px-4 py-4">
+      <div class="max-w-7xl mx-auto flex items-center justify-between">
+         <a href="index.html" class="text-white text-xl font-semibold hover:text-gray-300 transition-colors">
+            Home
+         </a>
+         <button id="signOutBtn" class="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-medium transition-colors">
+            Sign Out
+         </button>
+      </div>
+   </nav>
+
+   <!-- Product Details Container -->
+   <div class="max-w-7xl mx-auto px-4 py-8">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+         <!-- Product Image Section -->
+         <div class="bg-gray-800 rounded-lg border border-gray-700 p-6">
+            <img
+               id="productImage"
+               src=""
+               alt="Product Image"
+               class="w-full h-96 object-contain bg-gray-700 rounded-lg mb-4"
+               onerror="this.onerror=null; this.src='https://via.placeholder.com/600x600/374151/FFFFFF?text=No+Image'"
+            />
+            <div class="flex gap-4">
+               <button class="flex-1 bg-gray-700 hover:bg-gray-600 text-white py-3 px-4 rounded-lg font-medium transition-colors">
+                  View Gallery
+               </button>
+               <button class="bg-gray-700 hover:bg-gray-600 text-white py-3 px-4 rounded-lg font-medium transition-colors">
+                  <span class="icon-[tabler--heart] size-6"></span>
+               </button>
+            </div>
+         </div>
+
+         <!-- Product Information Section -->
+         <div class="bg-gray-800 rounded-lg border border-gray-700 p-6">
+            <!-- Product Type Badge -->
+            <div class="mb-4">
+               <span id="productType" class="inline-block bg-green-600 text-white px-4 py-2 rounded-full text-sm font-medium">
+                  Product Type
+               </span>
+            </div>
+
+            <!-- Product Name -->
+            <h1 id="productName" class="text-4xl font-bold text-white mb-4">
+               Product Name
+            </h1>
+
+            <!-- Product Price -->
+            <div class="mb-6">
+               <span id="productPrice" class="text-3xl font-bold text-white">
+                  $0.00
+               </span>
+            </div>
+
+            <!-- Divider -->
+            <div class="border-b border-gray-700 my-6"></div>
+
+            <!-- Ingredients Section -->
+            <div class="mb-6">
+               <h2 class="text-xl font-semibold text-white mb-3">Ingredients</h2>
+               <p id="productIngredients" class="text-gray-300 leading-relaxed">
+                  Ingredients will be displayed here
+               </p>
+            </div>
+
+            <!-- Divider -->
+            <div class="border-b border-gray-700 my-6"></div>
+
+            <!-- Quantity Selector -->
+            <div class="mb-6">
+               <label class="block text-white font-medium mb-2">Quantity</label>
+               <div class="flex items-center gap-4">
+                  <button class="bg-gray-700 hover:bg-gray-600 text-white w-10 h-10 rounded-lg font-bold transition-colors">
+                     -
+                  </button>
+                  <input
+                     type="number"
+                     value="1"
+                     min="1"
+                     class="w-20 text-center bg-gray-700 text-white border border-gray-600 rounded-lg py-2 focus:outline-none focus:border-gray-500"
+                  />
+                  <button class="bg-gray-700 hover:bg-gray-600 text-white w-10 h-10 rounded-lg font-bold transition-colors">
+                     +
+                  </button>
+               </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="flex flex-col sm:flex-row gap-4">
+               <button class="flex-1 bg-red-600 hover:bg-red-700 text-white py-3 px-6 rounded-lg font-semibold transition-colors flex items-center justify-center gap-2">
+                  <span class="icon-[tabler--shopping-cart] size-5"></span>
+                  Add to Cart
+               </button>
+               <button class="bg-gray-700 hover:bg-gray-600 text-white py-3 px-6 rounded-lg font-semibold transition-colors flex items-center justify-center gap-2">
+                  <span class="icon-[tabler--heart] size-5"></span>
+                  Add to Favorites
+               </button>
+            </div>
+         </div>
+      </div>
+
+      <!-- Additional Information Section -->
+      <div class="mt-8 bg-gray-800 rounded-lg border border-gray-700 p-6">
+         <h2 class="text-2xl font-bold text-white mb-4">Product Description</h2>
+         <p id="productDescription" class="text-gray-300 leading-relaxed">
+         </p>
+      </div>
+
+      <!-- Back Button -->
+      <div class="mt-6">
+         <a href="index.html" class="inline-flex items-center gap-2 text-gray-300 hover:text-white transition-colors">
+            <span class="icon-[tabler--arrow-left] size-5"></span>
+            Back to Products
+         </a>
+      </div>
+   </div>
+
+   <script src="./js/details.js"></script>
+   <script>
+      // Handle Sign Out button
+      document.getElementById('signOutBtn').addEventListener('click', function() {
+         window.location.href = './login.html';
+         localStorage.setItem("isLoggedIn", false);
+         localStorage.removeItem("user");
+      });
+   </script>
+</body>
+</html>
+

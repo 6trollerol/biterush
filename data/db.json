@@ -22,7 +22,8 @@
       "name": "Sausage Pizza",
       "price": "$12.49",
       "type": "pizza",
-      "ingredients": "Dough, Sausages, Cheese, Tomato"
+      "ingredients": "Dough, Sausages, Cheese, Tomato",
+      "description": "A classic favorite featuring savory Italian sausages on a crispy crust, topped with melted cheese and rich tomato sauce. Perfect for meat lovers!"
     },
     {
       "id": "002",
@@ -30,7 +31,8 @@
       "name": "Pepperoni Pizza",
       "price": "$11.99",
       "type": "pizza",
-      "ingredients": "Dough, Pepperoni, Cheese, Tomato"
+      "ingredients": "Dough, Pepperoni, Cheese, Tomato",
+      "description": "The ultimate classic! Spicy pepperoni slices on a golden crust with gooey melted cheese and tangy tomato sauce. A timeless crowd-pleaser."
     },
     {
       "id": "003",
@@ -38,7 +40,8 @@
       "name": "Caesar Salad",
       "price": "$8.99",
       "type": "salad",
-      "ingredients": "Romaine Lettuce, Caesar Dressing, Parmesan Cheese, Croutons"
+      "ingredients": "Romaine Lettuce, Caesar Dressing, Parmesan Cheese, Croutons",
+      "description": "Crisp romaine lettuce tossed in our signature Caesar dressing, topped with shaved parmesan cheese and golden croutons. A refreshing and satisfying classic."
     },
     {
       "id": "004",
@@ -46,7 +49,8 @@
       "name": "Garden Salad",
       "price": "$7.99",
       "type": "salad",
-      "ingredients": "Mixed Greens, Tomatoes, Cucumbers, Carrots, Olive Oil"
+      "ingredients": "Mixed Greens, Tomatoes, Cucumbers, Carrots, Olive Oil",
+      "description": "A fresh and healthy mix of crisp mixed greens, juicy tomatoes, crunchy cucumbers, and sweet carrots, drizzled with extra virgin olive oil. Light and nutritious!"
     },
     {
       "id": "005",
@@ -54,7 +58,8 @@
       "name": "Greek Salad",
       "price": "$9.49",
       "type": "salad",
-      "ingredients": "Lettuce, Feta Cheese, Olives, Tomatoes, Red Onion, Olive Oil"
+      "ingredients": "Lettuce, Feta Cheese, Olives, Tomatoes, Red Onion, Olive Oil",
+      "description": "Authentic Mediterranean flavors with creamy feta cheese, briny olives, fresh tomatoes, and red onions on a bed of crisp lettuce. Dressed with premium olive oil."
     },
     {
       "id": "006",
@@ -62,7 +67,8 @@
       "name": "Classic Hamburger",
       "price": "$10.99",
       "type": "hamburger",
-      "ingredients": "Beef Patty, Bun, Lettuce, Tomato, Onion, Pickles, Cheese"
+      "ingredients": "Beef Patty, Bun, Lettuce, Tomato, Onion, Pickles, Cheese",
+      "description": "A perfectly grilled beef patty on a toasted bun, loaded with fresh lettuce, ripe tomatoes, crisp onions, tangy pickles, and melted cheese. The all-American classic!"
     },
     {
       "id": "007",
@@ -70,7 +76,8 @@
       "name": "Cheeseburger",
       "price": "$11.49",
       "type": "hamburger",
-      "ingredients": "Beef Patty, Bun, Cheese, Lettuce, Tomato, Onion, Special Sauce"
+      "ingredients": "Beef Patty, Bun, Cheese, Lettuce, Tomato, Onion, Special Sauce",
+      "description": "Juicy beef patty with melted cheese, fresh vegetables, and our secret special sauce on a soft bun. A cheesy delight that never disappoints!"
     },
     {
       "id": "008",
@@ -78,7 +85,8 @@
       "name": "Bacon Burger",
       "price": "$12.99",
       "type": "hamburger",
-      "ingredients": "Beef Patty, Bun, Bacon, Cheese, Lettuce, Tomato, Onion"
+      "ingredients": "Beef Patty, Bun, Bacon, Cheese, Lettuce, Tomato, Onion",
+      "description": "Premium beef patty topped with crispy, smoky bacon, melted cheese, and fresh veggies. The perfect combination of savory and satisfying flavors!"
     },
     {
       "id": "009",
@@ -86,7 +94,8 @@
       "name": "Margherita Pizza",
       "price": "$10.99",
       "type": "pizza",
-      "ingredients": "Dough, Fresh Mozzarella, Basil, Tomato Sauce"
+      "ingredients": "Dough, Fresh Mozzarella, Basil, Tomato Sauce",
+      "description": "A simple yet elegant Italian classic with fresh mozzarella, aromatic basil, and rich tomato sauce on a perfectly baked crust. Pure perfection in every bite."
     },
     {
       "id": "010",
@@ -94,7 +103,8 @@
       "name": "Buffalo Wings",
       "price": "$9.99",
       "type": "chicken wings",
-      "ingredients": "Chicken Wings, Buffalo Sauce, Blue Cheese Dip, Celery"
+      "ingredients": "Chicken Wings, Buffalo Sauce, Blue Cheese Dip, Celery",
+      "description": "Crispy, tender chicken wings tossed in our signature spicy buffalo sauce, served with creamy blue cheese dip and fresh celery sticks. Perfect for sharing!"
     },
     {
       "id": "011",
@@ -102,7 +112,8 @@
       "name": "Honey BBQ Wings",
       "price": "$10.49",
       "type": "chicken wings",
-      "ingredients": "Chicken Wings, Honey BBQ Sauce, Ranch Dip"
+      "ingredients": "Chicken Wings, Honey BBQ Sauce, Ranch Dip",
+      "description": "Succulent chicken wings glazed with sweet and smoky honey BBQ sauce, served with cool ranch dip. A perfect balance of sweet and savory flavors."
     },
     {
       "id": "012",
@@ -110,7 +121,8 @@
       "name": "Spicy Garlic Wings",
       "price": "$10.99",
       "type": "chicken wings",
-      "ingredients": "Chicken Wings, Spicy Garlic Sauce, Ranch Dip"
+      "ingredients": "Chicken Wings, Spicy Garlic Sauce, Ranch Dip",
+      "description": "Crispy wings coated in a bold spicy garlic sauce that packs a flavorful punch. Served with ranch dip to cool down the heat. For those who love intense flavors!"
     },
     {
       "id": "013",
@@ -118,7 +130,8 @@
       "name": "Salmon Sushi Roll",
       "price": "$13.99",
       "type": "sushi",
-      "ingredients": "Sushi Rice, Salmon, Nori, Avocado, Cucumber, Soy Sauce"
+      "ingredients": "Sushi Rice, Salmon, Nori, Avocado, Cucumber, Soy Sauce",
+      "description": "Fresh, premium salmon paired with creamy avocado and crisp cucumber, wrapped in nori and perfectly seasoned sushi rice. A sushi lover's dream!"
     },
     {
       "id": "014",
@@ -126,7 +139,8 @@
       "name": "Tuna Sushi Roll",
       "price": "$14.49",
       "type": "sushi",
-      "ingredients": "Sushi Rice, Tuna, Nori, Avocado, Wasabi, Ginger"
+      "ingredients": "Sushi Rice, Tuna, Nori, Avocado, Wasabi, Ginger",
+      "description": "Premium fresh tuna with buttery avocado, wrapped in nori and sushi rice. Served with wasabi and pickled ginger for an authentic Japanese experience."
     },
     {
       "id": "015",
@@ -134,39 +148,44 @@
       "name": "California Roll",
       "price": "$12.99",
       "type": "sushi",
-      "ingredients": "Sushi Rice, Crab, Avocado, Cucumber, Nori, Sesame Seeds"
+      "ingredients": "Sushi Rice, Crab, Avocado, Cucumber, Nori, Sesame Seeds",
+      "description": "A popular favorite featuring imitation crab, creamy avocado, and refreshing cucumber, rolled in nori and topped with toasted sesame seeds. Perfect for sushi beginners!"
     },
     {
       "id": "016",
-      "img": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&h=600&fit=crop",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReyN_9b-ff5Egj_AwFjapaXLV3DgvZ2dcVeA&s",
       "name": "Chicken Noodle Soup",
       "price": "$7.99",
       "type": "soup",
-      "ingredients": "Chicken Broth, Noodles, Chicken, Carrots, Celery, Onions"
+      "ingredients": "Chicken Broth, Noodles, Chicken, Carrots, Celery, Onions",
+      "description": "Comfort in a bowl! Tender chicken pieces, hearty noodles, and fresh vegetables in a rich, flavorful broth. The ultimate comfort food that warms your soul."
     },
     {
       "id": "017",
-      "img": "https://images.unsplash.com/photo-1565299507177-b0ac66763828?w=600&h=600&fit=crop",
+      "img": "https://cdn.loveandlemons.com/wp-content/uploads/2023/01/tomato-soup-recipe.jpg",
       "name": "Tomato Soup",
       "price": "$6.99",
       "type": "soup",
-      "ingredients": "Tomatoes, Onions, Garlic, Basil, Cream, Croutons"
+      "ingredients": "Tomatoes, Onions, Garlic, Basil, Cream, Croutons",
+      "description": "Creamy, velvety tomato soup made with ripe tomatoes, aromatic garlic and basil, finished with a touch of cream. Served with crispy croutons for the perfect texture."
     },
     {
       "id": "018",
-      "img": "https://images.unsplash.com/photo-1574894709920-11b28e7367e3?w=600&h=600&fit=crop",
+      "img": "https://assets.epicurious.com/photos/63ceb68b7d88c936746ada44/1:1/w_4546,h_4546,c_limit/MisoSoup_RECIPE_012023_46093.jpg",
       "name": "Miso Soup",
       "price": "$5.99",
       "type": "soup",
-      "ingredients": "Miso Paste, Tofu, Seaweed, Green Onions, Dashi"
+      "ingredients": "Miso Paste, Tofu, Seaweed, Green Onions, Dashi",
+      "description": "Traditional Japanese soup with savory miso paste, silky tofu, seaweed, and fresh green onions in a delicate dashi broth. Light, healthy, and deeply satisfying."
     },
     {
       "id": "019",
-      "img": "https://images.unsplash.com/photo-1523362628745-0c100150b504?w=600&h=600&fit=crop",
+      "img": "https://www.lottemart.vn/media/catalog/product/cache/0x0/8/9/8935049501503-1_1.jpg.webp",
       "name": "Coca Cola",
       "price": "$2.49",
       "type": "drink",
-      "ingredients": "Carbonated Water, Sugar, Caramel Color, Natural Flavors"
+      "ingredients": "Carbonated Water, Sugar, Caramel Color, Natural Flavors",
+      "description": "The world's most iconic soft drink! Refreshing, fizzy, and perfectly chilled. The classic cola taste that pairs perfectly with any meal."
     },
     {
       "id": "020",
@@ -174,7 +193,8 @@
       "name": "Orange Juice",
       "price": "$3.99",
       "type": "drink",
-      "ingredients": "Fresh Orange Juice, No Added Sugar"
+      "ingredients": "Fresh Orange Juice, No Added Sugar",
+      "description": "100% pure fresh-squeezed orange juice with no added sugar. Bursting with natural vitamin C and bright, citrusy flavor. A healthy and refreshing choice!"
     },
     {
       "id": "021",
@@ -182,23 +202,26 @@
       "name": "Iced Coffee",
       "price": "$4.49",
       "type": "drink",
-      "ingredients": "Coffee, Ice, Milk, Sugar"
+      "ingredients": "Coffee, Ice, Milk, Sugar",
+      "description": "Smooth, rich coffee served over ice with milk and a touch of sugar. Cool, refreshing, and energizing - the perfect pick-me-up any time of day!"
     },
     {
       "id": "022",
-      "img": "https://images.unsplash.com/photo-1523677011783-c91d1bbe2fdc?w=600&h=600&fit=crop",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdavlQdjsItHMHiGVu0EghSABBadnytJzvUg&s",
       "name": "Lemonade",
       "price": "$3.49",
       "type": "drink",
-      "ingredients": "Fresh Lemon Juice, Water, Sugar, Ice"
+      "ingredients": "Fresh Lemon Juice, Water, Sugar, Ice",
+      "description": "Homemade lemonade made with fresh-squeezed lemons, perfectly sweetened and served ice-cold. Tart, sweet, and incredibly refreshing on a hot day!"
     },
     {
       "id": "023",
-      "img": "https://images.unsplash.com/photo-1523362628745-0c100150b504?w=600&h=600&fit=crop",
+      "img": "https://www.cocoichibanya.vn/wp-content/uploads/2020/07/Sprite_CoCo-Ichibanya.jpg",
       "name": "Sprite",
       "price": "$2.49",
       "type": "drink",
-      "ingredients": "Carbonated Water, Sugar, Natural Lemon-Lime Flavors"
+      "ingredients": "Carbonated Water, Sugar, Natural Lemon-Lime Flavors",
+      "description": "Crisp, clean, and refreshing lemon-lime soda with a bright, bubbly taste. The perfect citrusy companion to any meal!"
     },
     {
       "id": "024",
@@ -206,7 +229,8 @@
       "name": "Green Tea",
       "price": "$2.99",
       "type": "drink",
-      "ingredients": "Green Tea Leaves, Hot Water, Honey (optional)"
+      "ingredients": "Green Tea Leaves, Hot Water, Honey (optional)",
+      "description": "Premium green tea leaves steeped to perfection, offering a delicate, earthy flavor with natural antioxidants. Served hot with optional honey for a touch of sweetness."
     },
     {
       "id":"025",
@@ -214,7 +238,8 @@
       "name":"Cheese Pizza",
       "price":"$10.99",
       "type":"pizza",
-      "ingredients" :"Dough, Fresh Mozzarella, Cheese, Tomato Sauce"
+      "ingredients" :"Dough, Fresh Mozzarella, Cheese, Tomato Sauce",
+      "description": "The ultimate comfort pizza! Loaded with gooey fresh mozzarella and extra cheese on a crispy crust with rich tomato sauce. Simple, cheesy, and absolutely delicious!"
     },
     {
       "id":"025",
@@ -222,7 +247,8 @@
       "name":"Mexican Beans Salad",
       "price":"$5.49",
       "type":"salad",
-      "ingredients":"Many type of Beans, Olive Oil, Salt, Lemonjuice, Seasoning of your choice"
+      "ingredients":"Many type of Beans, Olive Oil, Salt, Lemonjuice, Seasoning of your choice",
+      "description": "A vibrant and protein-packed salad featuring a colorful mix of beans, dressed with olive oil, fresh lemon juice, and your choice of seasonings. Healthy, hearty, and full of flavor!"
     },
     {
       "id":"026",
@@ -230,12 +256,53 @@
       "name":"BBQ Bacon Burger",
       "price":"$14.49",
       "type":"hamburger",
-      "ingredients":"Bacon, BBQ Beef, Avocado, Lettuce, Cheese, Tomato"
+      "ingredients":"Bacon, BBQ Beef, Avocado, Lettuce, Cheese, Tomato",
+      "description": "A premium burger experience! Smoky BBQ beef patty topped with crispy bacon, creamy avocado, fresh vegetables, and melted cheese. A flavor explosion in every bite!"
     },
     {
       "id":"027",
-      "img":"https://realfood.tesco.com/media/images/1400x919-Korean-chicken-wings-b3b7dad3-c787-4ec6-a481-625c04586a0e-0-1400x919.jpg",
-      "name":"Korean-style chicken wings"
+      "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY5kM7alA2OY2k8fxjx-vPEDN2bVEUBSiOEA&s",
+      "name":"Korean-style chicken wings",
+      "price":"$12.99",
+      "type":"chicken wings",
+      "ingredients":"Chicken Wings, Korean Sauce, Garlic, Soy Sauce, Sugar, Vinegar",
+      "description": "Crispy wings glazed with authentic Korean-style sauce featuring garlic, soy sauce, and a perfect balance of sweet and tangy flavors. Bold, addictive, and absolutely delicious!"
+    },
+    {
+      "id":"028",
+      "img":"https://assets.tmecosys.com/image/upload/t_web_rdp_recipe_584x480_1_5x/img/recipe/ras/Assets/64EF898D-2EDD-4B47-A456-E6A7D137AC91/Derivates/00f76cac-64f6-4573-be4f-e604a7d99143.jpg",
+      "name":"Nigiri Sushi",
+      "price":"$5.49",
+      "type":"sushi",
+      "ingredients":"Sushi Rice, Fish, Soy Sauce, Wasabi",
+      "description": "Traditional Japanese nigiri featuring fresh fish perfectly placed on hand-formed sushi rice. Served with soy sauce and wasabi for an authentic sushi experience."
+    },
+    {
+      "id":"029",
+      "img":"https://www.foodandwine.com/thmb/8bW6GuSOVuRP-XtcKZr3k4QyN-o=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Garlic-Soup-FT-RECIPE1023-db4ccdae3c4d43f1ad7fd0c287293f81.jpg",
+      "name":"Garlic Soup",
+      "price":"$5.49",
+      "type":"soup",
+      "ingredients":"Garlic, Onions, Chicken Broth, Cream, Salt, Pepper",
+      "description": "Aromatic and flavorful soup made with roasted garlic, caramelized onions, and rich chicken broth, finished with cream. Bold, warming, and perfect for garlic lovers!"
+    },
+    {
+      "id":"030",
+      "img":"https://product.hstatic.net/1000301274/product/_10100996__7up_320ml_sleek_lon_0366766c074a4b538595ed8d91dc6b0d_1024x1024.png",
+      "name":"7 Up",
+      "price":"$2.49",
+      "type":"drink",
+      "ingredients":"Carbonated Water, Sugar, Citric Acid, Natural Flavors, Color (Caramel)",
+      "description": "Crisp, clear, and refreshing lemon-lime soda with a clean, zesty taste. Light, bubbly, and perfect for quenching your thirst!"
+    },
+    {
+      "id":"031",
+      "img":"https://cdnv2.tgdd.vn/bhx-static/bhx/Products/Images/2443/91176/bhx/z-2_202411041457065358.jpg",
+      "name":"Fanta",
+      "price":"$2.49",
+      "type":"drink",
+      "ingredients":"Carbonated Water, Sugar, Natural Orange Flavors, Citric Acid",
+      "description": "Bursting with bold orange flavor! This fizzy, fruity soft drink is sweet, tangy, and incredibly refreshing. A vibrant citrus experience in every sip!"
     }
   ]
 }

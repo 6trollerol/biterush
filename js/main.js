@@ -3,6 +3,7 @@ const productURL = "http://localhost:3000/products";
 document.getElementById('signOutBtn').addEventListener('click', function() {
     window.location.href = './login.html';
     localStorage.setItem("isLoggedIn", false)
+    localStorage.removeItem("user");
  });
 
 fetch(productURL)
@@ -23,7 +24,7 @@ fetch(productURL)
     <div class="card shadow-md bg-gray-800 rounded-lg overflow-hidden hover:shadow-xl hover:bg-gray-750 transition-all border border-gray-700 h-full flex flex-col">
           <div class="card-body text-center p-4 flex flex-col flex-grow">
             <!-- Product Image -->
-            <a href="#">
+            <a href="product-details.html?id=${item.id}">
               <img
                 src="${item.img || 'https://via.placeholder.com/200x200/374151/FFFFFF?text=No+Image'}"
                 alt="${item.name}"
