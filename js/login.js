@@ -19,7 +19,8 @@ loginBtn.addEventListener("click", () => {
         const account = accounts.find(account => account.username === username && account.password ===password);
     if (account){
         localStorage.setItem("isLoggedIn", "true");
-        localStorage.setItem("user", account.username);
+        localStorage.setItem("username", account.username);
+        localStorage.setItem("role", account.role);
         window.location.href = "index.html";
     } else {
         alert("Wrong username or password")

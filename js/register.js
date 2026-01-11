@@ -16,6 +16,10 @@ function addUser() {
         return;
         
     };
+    if (!email.includes("@")) {
+        alert("Email phải có ký tự @!");
+        return;
+    }
     if (password !== confirmedPassword){
         alert("Xác nhận mật khẩu chưa đúng");
         return;

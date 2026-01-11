@@ -30,7 +30,6 @@
                src=""
                alt="Product Image"
                class="w-full h-96 object-contain bg-gray-700 rounded-lg mb-4"
-               onerror="this.onerror=null; this.src='https://via.placeholder.com/600x600/374151/FFFFFF?text=No+Image'"
             />
             <div class="flex gap-4">
                <button class="flex-1 bg-gray-700 hover:bg-gray-600 text-white py-3 px-4 rounded-lg font-medium transition-colors">
@@ -81,18 +80,12 @@
             <div class="mb-6">
                <label class="block text-white font-medium mb-2">Quantity</label>
                <div class="flex items-center gap-4">
-                  <button class="bg-gray-700 hover:bg-gray-600 text-white w-10 h-10 rounded-lg font-bold transition-colors">
-                     -
-                  </button>
                   <input
                      type="number"
                      value="1"
                      min="1"
-                     class="w-20 text-center bg-gray-700 text-white border border-gray-600 rounded-lg py-2 focus:outline-none focus:border-gray-500"
+                     class="quantity-input w-20 text-center bg-gray-700 text-white border border-gray-600 rounded-lg py-2 focus:outline-none focus:border-gray-500"
                   />
-                  <button class="bg-gray-700 hover:bg-gray-600 text-white w-10 h-10 rounded-lg font-bold transition-colors">
-                     +
-                  </button>
                </div>
             </div>
 
@@ -127,14 +120,6 @@
    </div>
 
    <script src="./js/details.js"></script>
-   <script>
-      // Handle Sign Out button
-      document.getElementById('signOutBtn').addEventListener('click', function() {
-         window.location.href = './login.html';
-         localStorage.setItem("isLoggedIn", false);
-         localStorage.removeItem("user");
-      });
-   </script>
 </body>
 </html>
 

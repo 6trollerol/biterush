@@ -1,10 +1,32 @@
 const productURL = "http://localhost:3000/products";
+const searchBar = document.querySelector('.search')
+
+if(localStorage.getItem("isLoggedIn") === "false"){
+    window.location.href = './login.html';
+}
 
 document.getElementById('signOutBtn').addEventListener('click', function() {
     window.location.href = './login.html';
     localStorage.setItem("isLoggedIn", false)
-    localStorage.removeItem("user");
+    localStorage.removeItem("username");
+    localStorage.removeItem("role");
  });
+
+ function searchItem(){
+  searchInput = searchBar.value.trim()
+  searchPrd = []
+  fetch(productURL)
+  .then(res => res.json())
+  .then(data => {
+    data.forEach(p => {
+      if (p.name.include())
+        searchPrd.push(p)
+    })
+  })
+
+    
+
+}
 
 fetch(productURL)
   .then(res => res.json())
@@ -65,3 +87,4 @@ fetch(productURL)
   .catch((err) => {
     console.log(err);
   });
+

@@ -1,6 +1,5 @@
 const productURL = "http://localhost:3000/products";
 const productId = new URLSearchParams(window.location.search).get("id");
-
 fetch(`${productURL}?id=${productId}`)
 .then(res => res.json())
 .then(data => { 
@@ -21,3 +20,10 @@ fetch(`${productURL}?id=${productId}`)
 .catch(err => {
     console.log(err);
 });
+
+document.getElementById('signOutBtn').addEventListener('click', function() {
+    window.location.href = './login.html';
+    localStorage.setItem("isLoggedIn", false);
+    localStorage.removeItem("username");
+    localStorage.removeItem("role");
+ });
