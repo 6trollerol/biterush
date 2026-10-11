@@ -1,4 +1,5 @@
-const productURL = "http://localhost:3000/products";
+const API_URL = "https://biterush-api-0z6r.onrender.com";
+const productURL = `${API_URL}/products`;
 const searchBar = document.querySelector('.search')
 
 if(localStorage.getItem("isLoggedIn") === "false"){
