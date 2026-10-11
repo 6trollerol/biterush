@@ -1,0 +1,14 @@
+{
+  "name": "spck-find-food",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "json-server data/db.json -s . -h 0.0.0.0"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}

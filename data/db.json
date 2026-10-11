@@ -9,7 +9,7 @@
     },
     {
       "id": "002",
-      "username": "nguyenvana",
+      "username": "abc",
       "password": "123456",
       "role": "user",
       "email": "nguyenvana@gmail.com"
@@ -17,22 +17,13 @@
   ],
   "products": [
     {
-      "id": "001",
-      "img": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&h=600&fit=crop",
       "name": "Sausage Pizza",
       "price": "$12.49",
-      "type": "pizza",
+      "img": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&h=600&fit=crop",
       "ingredients": "Dough, Sausages, Cheese, Tomato",
-      "description": "A classic favorite featuring savory Italian sausages on a crispy crust, topped with melted cheese and rich tomato sauce. Perfect for meat lovers!"
-    },
-    {
-      "id": "002",
-      "img": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=600&h=600&fit=crop",
-      "name": "Pepperoni Pizza",
-      "price": "$11.99",
+      "description": "A classic favorite featuring savory Italian sausages on a crispy crust, topped with melted cheese and rich tomato sauce. Perfect for meat lovers!",
       "type": "pizza",
-      "ingredients": "Dough, Pepperoni, Cheese, Tomato",
-      "description": "The ultimate classic! Spicy pepperoni slices on a golden crust with gooey melted cheese and tangy tomato sauce. A timeless crowd-pleaser."
+      "id": "001"
     },
     {
       "id": "003",
@@ -53,13 +44,13 @@
       "description": "A fresh and healthy mix of crisp mixed greens, juicy tomatoes, crunchy cucumbers, and sweet carrots, drizzled with extra virgin olive oil. Light and nutritious!"
     },
     {
-      "id": "005",
-      "img": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=600&h=600&fit=crop",
       "name": "Greek Salad",
       "price": "$9.49",
-      "type": "salad",
+      "img": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=600&h=600&fit=crop",
       "ingredients": "Lettuce, Feta Cheese, Olives, Tomatoes, Red Onion, Olive Oil",
-      "description": "Authentic Mediterranean flavors with creamy feta cheese, briny olives, fresh tomatoes, and red onions on a bed of crisp lettuce. Dressed with premium olive oil."
+      "description": "Authentic Mediterranean flavors with creamy feta cheese, briny olives, fresh tomatoes, and red onions on a bed of crisp lettuce. Dressed with premium olive oil.",
+      "type": "salad",
+      "id": "005"
     },
     {
       "id": "006",
@@ -303,6 +294,15 @@
       "type": "drink",
       "ingredients": "Carbonated Water, Sugar, Natural Orange Flavors, Citric Acid",
       "description": "Bursting with bold orange flavor! This fizzy, fruity soft drink is sweet, tangy, and incredibly refreshing. A vibrant citrus experience in every sip!"
+    },
+    {
+      "id": "118b",
+      "name": "",
+      "price": "",
+      "img": "",
+      "ingredients": "",
+      "description": "",
+      "type": "pizza"
     }
   ]
 }

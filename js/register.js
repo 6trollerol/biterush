@@ -1,4 +1,4 @@
-const accountURL = "http://localhost:3000/accounts";
+const accountURL = "/accounts";
 const usernameInput = document.getElementById("username");
 const emailInput = document.getElementById("email");
 const passwordInput = document.getElementById("password");

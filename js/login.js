@@ -1,9 +1,11 @@
-const accountURL = "http://localhost:3000/accounts"
+const accountURL = "/accounts";
 const usernameInput = document.getElementById("username")
 const passwordInput = document.getElementById("password")
 const loginBtn = document.querySelector(".login-button")
 
-
+if (localStorage.getItem("isLoggedIn") === true){
+    window.location.href = "index.html"
+}
 
 loginBtn.addEventListener("click", () => {
     const username = usernameInput.value

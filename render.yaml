@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: spck-find-food
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start

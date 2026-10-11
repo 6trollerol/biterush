@@ -1,4 +1,4 @@
-const productURL = "http://localhost:3000/products";
+const productURL = "/products";
 const productId = new URLSearchParams(window.location.search).get("id");
 fetch(`${productURL}?id=${productId}`)
 .then(res => res.json())
@@ -20,6 +20,10 @@ fetch(`${productURL}?id=${productId}`)
 .catch(err => {
     console.log(err);
 });
+
+if (localStorage.getItem("isLoggedIn")=== false){
+    window.location.href="login.html"
+}
 
 document.getElementById('signOutBtn').addEventListener('click', function() {
     window.location.href = './login.html';

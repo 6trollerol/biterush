@@ -1,32 +1,38 @@
-const productURL = "http://localhost:3000/products";
+const productURL = "/products";
 const searchBar = document.querySelector('.search')
 
-if(localStorage.getItem("isLoggedIn") === "false"){
-    window.location.href = './login.html';
+if (localStorage.getItem("isLoggedIn") === "false") {
+  window.location.href = './login.html';
 }
 
-document.getElementById('signOutBtn').addEventListener('click', function() {
-    window.location.href = './login.html';
-    localStorage.setItem("isLoggedIn", false)
-    localStorage.removeItem("username");
-    localStorage.removeItem("role");
- });
+document.getElementById('signOutBtn').addEventListener('click', function () {
+  window.location.href = './login.html';
+  localStorage.setItem("isLoggedIn", false)
+  localStorage.removeItem("username");
+  localStorage.removeItem("role");
+});
 
- function searchItem(){
-  searchInput = searchBar.value.trim()
-  searchPrd = []
-  fetch(productURL)
-  .then(res => res.json())
-  .then(data => {
-    data.forEach(p => {
-      if (p.name.include())
-        searchPrd.push(p)
-    })
-  })
 
-    
+searchBar.addEventListener("keydown", function (e) {
+  if (e.key === "Enter") {
+    const keyword = searchBar.value.trim();
+    if (keyword !== "") {
+      window.location.href = `search.html?name=${encodeURIComponent(keyword)}`;
+    }
+  }
+});
 
+const adminEditBtn = document.getElementById("adminEditBtn");
+const role = localStorage.getItem("role");
+
+if (role === "admin") {
+  adminEditBtn.classList.remove("hidden");
+
+  adminEditBtn.addEventListener("click", () => {
+    window.location.href = "admin.html";
+  });
 }
+
 
 fetch(productURL)
   .then(res => res.json())
@@ -51,8 +57,7 @@ fetch(productURL)
                 src="${item.img || 'https://via.placeholder.com/200x200/374151/FFFFFF?text=No+Image'}"
                 alt="${item.name}"
                 class="mb-4 h-40 w-full object-contain bg-gray-700 rounded"
-                onerror="this.onerror=null; this.src='https://via.placeholder.com/200x200/374151/FFFFFF?text=No+Image'"
-              />
+                />
               <h3 class="text-gray-100 text-lg font-medium mb-2">${item.name}</h3>
             </a>
 
