@@ -17,11 +17,11 @@ app.get("/", (req, res) => {
 
 // Read product data from the repository
 app.get("/products", (req, res) => {
-  const filePath = path.join(
+ const filePath = path.join(
     __dirname,
     "..",
     "data",
-    "products.json"
+    "db.json"
   );
 
   try {
