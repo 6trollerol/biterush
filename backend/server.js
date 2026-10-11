@@ -28,7 +28,7 @@ app.get("/products", (req, res) => {
     const rawData = fs.readFileSync(filePath, "utf8");
     const data = JSON.parse(rawData);
 
-    res.json(Array.isArray(data) ? data : data.products);
+    res.json(data.products);
   } catch (error) {
     console.error("Could not load products:", error.message);
     res.status(500).json({
